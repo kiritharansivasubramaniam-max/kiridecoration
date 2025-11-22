@@ -1,0 +1,451 @@
+<!-- Project: Kiri Decoration — Multi-page Website
+     Files included below. Upload these files to a repository named: yourusername.github.io
+     or any repo and deploy on GitHub Pages / Netlify / Vercel.
+
+Project structure:
+/
+  index.html
+  about.html
+  services.html
+  gallery.html
+  testimonials.html
+  contact.html
+  assets/
+    style.css
+    script.js
+    README.md
+
+-->
+
+<!-- ========================= index.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kiri Decoration — Home</title>
+  <meta name="description" content="Kiri Decoration — Elegant wedding decor and event styling.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kiri Decoration</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Beautiful weddings, thoughtfully designed.</h1>
+        <p class="lead">Kiri Decoration — Elegant floral & decor design for memorable ceremonies and receptions.</p>
+        <a href="contact.html" class="btn-cta">Book a Consultation</a>
+      </div>
+    </section>
+
+    <section class="intro container">
+      <div class="grid-2">
+        <div>
+          <h2>Crafting moments that shine</h2>
+          <p>We specialize in romantic, timeless wedding decor — centerpieces, ceremony arches, table styling, lighting and full-event design. Serving couples with bespoke, detail-first planning.</p>
+          <ul class="features">
+            <li>Custom floral arrangements</li>
+            <li>Full ceremony + reception styling</li>
+            <li>On-site setup and coordination</li>
+          </ul>
+          <a href="services.html" class="link">View Services →</a>
+        </div>
+        <div class="card">
+          <img alt="Romantic wedding setup" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=60">
+        </div>
+      </div>
+    </section>
+
+    <section class="mini-gallery">
+      <div class="container">
+        <h3>Recent setups</h3>
+        <div class="gallery-row">
+          <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=800&q=60" alt="setup 1">
+          <img src="https://images.unsplash.com/photo-1526481280698-8b0f2a5d0d3f?auto=format&fit=crop&w=800&q=60" alt="setup 2">
+          <img src="https://images.unsplash.com/photo-1505577058444-a3dabf5f7f3b?auto=format&fit=crop&w=800&q=60" alt="setup 3">
+        </div>
+        <p class="center"><a class="link" href="gallery.html">View full gallery →</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Kiri Decoration — All rights reserved.</p>
+      <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= about.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Kiri Decoration</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kiri Decoration</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page">
+      <h1>About Kiri Decoration</h1>
+      <p>Kiri Decoration was founded to bring timeless, romantic design to weddings and intimate events. Our team blends classic floral techniques with modern styling to create cohesive event experiences.</p>
+      <h2>Our approach</h2>
+      <p>We focus on personalized consultations, mood boards, and careful execution so you can enjoy your day while we manage the details.</p>
+      <h3>Meet the founder</h3>
+      <div class="founder">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60" alt="Founder">
+        <div>
+          <p><strong>Founder Name</strong> — Lead Designer with x years of experience in floral and event styling.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year2"></span> Kiri Decoration — All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= services.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Services — Kiri Decoration</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kiri Decoration</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page">
+      <h1>Our Services</h1>
+      <div class="services-grid">
+        <div class="service">
+          <h3>Ceremony Design</h3>
+          <p>Arches, aisle decor, floral installments and seating styling.</p>
+        </div>
+        <div class="service">
+          <h3>Reception Styling</h3>
+          <p>Tablescapes, centerpieces, lounge areas and lighting design.</p>
+        </div>
+        <div class="service">
+          <h3>Full Production</h3>
+          <p>End-to-end event design and day-of coordination with vendor management.</p>
+        </div>
+        <div class="service">
+          <h3>Florals & Bouquets</h3>
+          <p>Custom bouquets, corsages, and installation florals sourced locally.</p>
+        </div>
+      </div>
+      <p class="center"><a class="btn-cta" href="contact.html">Get a Quote</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year3"></span> Kiri Decoration — All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= gallery.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery — Kiri Decoration</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kiri Decoration</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page">
+      <h1>Gallery</h1>
+      <p>Sample images — replace with your photos by overwriting the img src or uploading your own to assets/images/</p>
+      <div class="masonry">
+        <!-- Sample Unsplash photos (royalty-free for demo) -->
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=60" alt="gallery1">
+        <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=800&q=60" alt="gallery2">
+        <img src="https://images.unsplash.com/photo-1526481280698-8b0f2a5d0d3f?auto=format&fit=crop&w=800&q=60" alt="gallery3">
+        <img src="https://images.unsplash.com/photo-1505577058444-a3dabf5f7f3b?auto=format&fit=crop&w=800&q=60" alt="gallery4">
+        <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=800&q=60" alt="gallery5">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" alt="gallery6">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year4"></span> Kiri Decoration — All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= testimonials.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Testimonials — Kiri Decoration</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kiri Decoration</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page">
+      <h1>What couples say</h1>
+      <div class="testimonials">
+        <blockquote>
+          <p>"Kiri Decoration made our day magical — the flowers and lighting were perfect."</p>
+          <cite>— A &amp; R</cite>
+        </blockquote>
+        <blockquote>
+          <p>"Attentive team and flawless setup. Highly recommended."</p>
+          <cite>— S &amp; T</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year5"></span> Kiri Decoration — All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= contact.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Kiri Decoration</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kiri Decoration</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page">
+      <h1>Contact Us</h1>
+      <p>To request a quote or schedule a consultation, please fill out the form or email us directly.</p>
+
+      <form class="contact-form" action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+        <label>Name
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Event Date
+          <input type="date" name="event_date">
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn-cta">Send Message</button>
+      </form>
+
+      <p class="small">Or email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year6"></span> Kiri Decoration — All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= assets/style.css ========================= -->
+/* Elegant & Romantic theme: soft blush, ivory, gold accents */
+:root{
+  --ivory:#fffaf6;
+  --blush:#f6e6e9;
+  --rose:#dba6ab;
+  --gold:#b08a52;
+  --text:#333;
+  --accent:#8b5e5b;
+}
+*{box-sizing:border-box}
+body{font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; color:var(--text); background:var(--ivory);}
+.container{max-width:1100px;margin:0 auto;padding:2rem}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:'Playfair Display', serif;font-size:1.6rem;color:var(--accent);text-decoration:none}
+.nav a{margin-left:1rem;text-decoration:none;color:var(--text)}
+.btn-primary{background:var(--gold);color:white;padding:0.5rem 0.9rem;border-radius:8px;text-decoration:none}
+.site-header{background:linear-gradient(180deg, rgba(255,250,248,0.9), rgba(255,250,248,0.8));position:sticky;top:0;z-index:10;border-bottom:1px solid rgba(0,0,0,0.03)}
+.hero{background-image:linear-gradient(180deg, rgba(255,250,248,0.6), rgba(255,250,248,0.8));padding:4rem 0;text-align:center}
+.hero h1{font-family:'Playfair Display',serif;font-size:2.6rem;margin:0 0 1rem;color:var(--accent)}
+.lead{max-width:700px;margin:0 auto 1.5rem;color:#6b5b5b}
+.btn-cta{display:inline-block;background:var(--accent);color:white;padding:0.9rem 1.2rem;border-radius:10px;text-decoration:none}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
+.card img{width:100%;height:320px;object-fit:cover;border-radius:12px}
+.features{list-style:disc;margin-left:1.2rem}
+.mini-gallery .gallery-row{display:flex;gap:10px;margin-top:1rem}
+.mini-gallery img{width:32%;height:160px;object-fit:cover;border-radius:8px}
+.page{padding:2rem 0}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.2rem}
+.service{background:linear-gradient(180deg,white, var(--blush));padding:1.1rem;border-radius:10px;border:1px solid rgba(0,0,0,0.03)}
+.masonry{column-count:3;column-gap:1rem}
+.masonry img{width:100%;break-inside:avoid;margin-bottom:1rem;border-radius:8px}
+.testimonials blockquote{background:white;padding:1rem;border-radius:8px;margin:1rem 0;border-left:4px solid var(--gold)}
+.contact-form{max-width:700px}
+.contact-form label{display:block;margin-bottom:0.8rem}
+.contact-form input,.contact-form textarea{width:100%;padding:0.6rem;border-radius:6px;border:1px solid #e6dede}
+.site-footer{border-top:1px solid rgba(0,0,0,0.03);padding:1.5rem 0;background:transparent}
+.center{text-align:center}
+.small{font-size:0.9rem;color:#6b5b5b}
+@media (max-width:800px){.grid-2{grid-template-columns:1fr}.masonry{column-count:2}.mini-gallery img{width:100%}}
+@media (max-width:520px){.masonry{column-count:1}.nav{display:none}.nav-toggle{display:block}}
+
+
+/* ========================= assets/script.js ========================= */
+(function(){
+  document.getElementById('year')?.innerText = new Date().getFullYear();
+  document.getElementById('year2')?.innerText = new Date().getFullYear();
+  document.getElementById('year3')?.innerText = new Date().getFullYear();
+  document.getElementById('year4')?.innerText = new Date().getFullYear();
+  document.getElementById('year5')?.innerText = new Date().getFullYear();
+  document.getElementById('year6')?.innerText = new Date().getFullYear();
+
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+  if(toggle && nav){
+    toggle.addEventListener('click', ()=>{
+      nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+      nav.style.flexDirection = 'column';
+      nav.style.gap = '12px';
+    });
+  }
+})();
+
+
+/* ========================= README.md ========================= */
+
+# Kiri Decoration — Static Website
+
+## How to use
+1. Create a GitHub account (if you don’t have one) and create a repo named `yourusername.github.io` for a user site OR any repo for a project site.
+2. Upload all files and folders from this project to the repository root.
+3. On GitHub go to Settings → Pages and enable GitHub Pages (branch `main` / `master`). Your site will be served at `https://yourusername.github.io`.
+
+Alternatively, drag-and-drop the site folder to Netlify or Vercel for free hosting.
+
+## Customization
+- Replace image URLs in `gallery.html`, `index.html`, and `about.html` with your own images.
+- Edit contact email in `contact.html`.
+- Change Founder name and copy across pages.
+
+---
+
+<!-- End of project files -->
