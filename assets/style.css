@@ -936,7 +936,11 @@ h1:hover, h2:hover, h3:hover {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
+/* Fix white space below hero caused by pseudo-element */
+.hero {
+    position: relative !important;
+    overflow: hidden !important;
+}
 /* ========================= README.md ========================= */
 
 # Kiri Decoration — Static Website
