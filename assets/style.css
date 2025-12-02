@@ -105,7 +105,17 @@ img {
 .small{font-size:0.9rem;color:#6b5b5b}
 @media (max-width:800px){.grid-2{grid-template-columns:1fr}.masonry{column-count:2}.mini-gallery img{width:100%}}
 @media (max-width:520px){.masonry{column-count:1}.nav{display:none}.nav-toggle{display:block}}
+/* Premium fade-up animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: 0.9s ease;
+}
 
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* ========================= assets/script.js ========================= */
 (function(){
