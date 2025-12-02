@@ -126,7 +126,19 @@ h2::after {
   opacity: 1;
   transform: translateY(0);
 }
-
+/* Premium Parallax Effect (NO HTML changes needed) */
+.hero {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.12); /* subtle dark overlay */
+    z-index: -1;
+}
 /* ========================= assets/script.js ========================= */
 (function(){
   document.getElementById('year')?.innerText = new Date().getFullYear();
