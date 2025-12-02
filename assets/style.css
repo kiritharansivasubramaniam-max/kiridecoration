@@ -139,6 +139,11 @@ h2::after {
     background: rgba(0,0,0,0.12); /* subtle dark overlay */
     z-index: -1;
 }
+/* ===== Premium Section Background ===== */
+section {
+    padding: 4rem 0;
+    background: linear-gradient(180deg, #f7f0e9, #e8ddd3);
+}
 /* ========================= assets/script.js ========================= */
 (function(){
   document.getElementById('year')?.innerText = new Date().getFullYear();
