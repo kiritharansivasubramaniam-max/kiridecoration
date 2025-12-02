@@ -720,6 +720,75 @@ h1:hover, h2:hover, h3:hover {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+/* ========== INDEX PAGE ENHANCEMENTS ========== */
+
+/* Fix logo alignment in navbar */
+.header-inner {
+    align-items: center !important;
+}
+
+.brand-logo {
+    margin-top: 0 !important;
+}
+
+/* Hero fade-in animation */
+.hero {
+    animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Center major content sections for wide screens */
+.section, 
+.services-section, 
+.gallery-section, 
+.recent-setups-section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Service card hover effect */
+.service-card {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Gallery hover zoom */
+.gallery img {
+    transition: transform .3s ease, box-shadow .3s ease;
+    border-radius: 10px;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Recent setups styling */
+.recent-setups img {
+    border-radius: 10px;
+    transition: transform .3s ease;
+}
+
+.recent-setups img:hover {
+    transform: scale(1.03);
+}
+
+/* Clean up “View full gallery →” alignment */
+.view-gallery-link {
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    margin-top: 0.7rem;
+}
 /* ========================= README.md ========================= */
 
 # Kiri Decoration — Static Website
