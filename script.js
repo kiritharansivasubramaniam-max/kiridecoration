@@ -16,3 +16,19 @@
     });
   }
 })();
+// Scroll reveal effect
+const reveals = document.querySelectorAll('.reveal');
+
+function revealOnScroll() {
+  reveals.forEach((el) => {
+    const rect = el.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight - 100;
+
+    if (rect < windowHeight) {
+      el.classList.add('show');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+revealOnScroll();
